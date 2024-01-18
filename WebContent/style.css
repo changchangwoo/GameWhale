@@ -1,0 +1,742 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    margin: auto;
+}
+
+a {
+    text-decoration-line: none !important;
+    color: black !important;
+}
+
+footer {
+    border-top: 0.1px solid rgb(202, 202, 202);
+    width: 1920px;
+    height: 200px;
+    font-size: 23px;
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+    padding: 50px;
+
+}
+
+footer>h2 {
+    font-weight: bolder;
+
+}
+
+
+header {
+    width: 1920px;
+    height: 100px;
+    background-color: rgb(193, 243, 253);
+    margin: auto;
+    display: flex;
+    border-bottom: 0.1px solid rgb(202, 202, 202);
+}
+
+.header_menu {
+    display: flex;
+    line-height: 70px;
+    margin: auto;
+}
+
+.header_menu>li {
+    margin-left: 40px;
+}
+
+.header_menu>li>a {
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+
+.header_login {
+    display: flex;
+    margin: auto;
+}
+
+.header_login>li {
+    font-size: 22px;
+    font-weight: bold;
+    justify-content: flex-end;
+    line-height: 70px;
+}
+
+.button_1 {
+    width: 150px;
+    height: 50px;
+    border: solid 1px;
+    border-color: rgb(202, 202, 202);
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.button_2 {
+    width: 145px;
+    background-color: rgb(202, 202, 202);
+    height: 40px;
+    border: solid 1px;
+    border-color: black;
+
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.text_form_middle {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.text_form_small {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.view_top {
+    height: 250px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+/* common */
+
+.bg {
+    width: 1920px;
+    height: 900px;
+    top: 100px;
+    background-image: url(img/img_bg.jpg);
+    margin: auto;
+    border-bottom: 0.1px solid rgb(202, 202, 202);
+}
+
+.logofonts {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 55px;
+    font-family: 'Nexon_bold';
+}
+
+.sublogofonts {
+    text-align: center;
+    font-size: 25px;
+}
+
+.bg_button {
+    margin: auto;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+}
+
+.bg_button>button {
+    width: 180px;
+    height: 60px;
+    margin-top: 45px;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+/* style_header, bg */
+
+.contents_01 {
+    width: 1920px;
+    height: 900px;
+    margin: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .2)
+}
+
+.contents_title {
+    padding-top: 65px;
+    font-family: 'Nexon_bold';
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold
+}
+
+.contents_subtitle {
+    padding-top: 20px;
+    font-family: 'Nexon_light';
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold
+}
+
+.contents_01>.c01_icons {
+    display: flex;
+    margin-top: 150px;
+}
+
+.contents_01>.c01_icons>li {
+    flex: 1;
+    width: 400px;
+    height: 350px;
+    margin-left: 50px;
+}
+
+.contents_01>.c01_icons>li:last-child {
+    margin-right: 50px;
+}
+
+.contents_01>.c01_icons>li>.c01_icon {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contents_02 {
+    width: 1920px;
+    height: 1000px;
+    margin: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    background-color: rgb(246, 246, 248);
+}
+
+.contents_02>.c02_games {
+    display: flex;
+    width: 1920px;
+    margin-top: 150px;
+}
+
+.contents_02>.c02_games>li:last-child {
+    margin-right: 90px;
+}
+
+.contents_02>.c02_games>li {
+    flex: 1;
+    margin-left: 150px;
+}
+
+.contents_02>.c02_games>li>img {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+
+}
+
+.contents_03 {
+    width: 1920px;
+    height: 700px;
+    margin: auto;
+    display: flex;
+
+}
+
+.c03_text {
+    margin: auto;
+    flex: 1;
+}
+
+.text_form01 {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.text_form02 {
+    font-size: 20px;
+}
+
+.c03_icon {
+    margin: auto;
+    text-align: center;
+    flex: 1;
+}
+
+.icon_zoom {
+    transition: transform .2s;
+    width: 400px;
+    height: 400px;
+}
+
+.icon_zoom:hover {
+    transform: scale(1.3);
+    /* (150% zoom, 사이즈가 너무 클 경우 viewport 밖으로 나가게 됨 주의! */
+}
+
+.button_zoom {
+    transition: transform .2s;
+    width: 180px;
+    height: 100px;
+}
+
+.button_zoom:hover {
+    transform: scale(1.2);
+}
+
+/* main.html */
+.contents_login {
+    width: 1920px;
+    height: 1300px;
+    display: flex;
+    margin: auto;
+}
+
+.bg_login {
+    width: 70%;
+    background-image: url(img/login_bg.png);
+
+}
+
+.forms_login {
+    width: 30%;
+
+
+}
+
+.forms_login>.forms_login_logo {
+    height: 20%;
+}
+
+.forms_login>.forms_login_input {
+    height: 80%;
+    margin: auto;
+}
+
+.input_label {
+    margin-bottom: 20px !important;
+    width: 500px !important;
+    height: 70px;
+    font-size: 25px !important;
+}
+
+/* login.html */
+
+.contents_register {
+    width: 1920px;
+    height: 1600px;
+    text-align: center;
+    margin: auto;
+}
+
+.register_form_id {
+    height: 35%;
+    border-top: 1px solid rgba(0, 0, 0, .2);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    background-color: rgb(246, 246, 248);
+}
+
+.register_form_privacy {
+    height: 50%;
+}
+
+.register_label {
+    margin: auto;
+    width: 500px !important;
+    height: 70px;
+    font-size: 25px !important;
+}
+
+.register_label_gender {
+    margin: auto;
+    width: 250px !important;
+    height: 70px;
+    font-size: 35px !important;
+}
+
+/* regitser.html */
+
+.contents_registersuccess {
+    width: 1920px;
+    height: 1000px;
+    margin: auto;
+}
+
+.registersuccess_text {
+    margin: auto;
+    margin-top: 150px;
+}
+
+.admin_nav {
+    margin: auto;
+    width: 1920px;
+    height: 200px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+
+}
+
+.admin_nav>ul {
+    display: flex;
+    margin-top: 70px;
+}
+
+.admin_nav>ul>li {
+    flex: 1;
+    margin-left: 60px;
+}
+
+/* admin_nav */
+
+.admin_nav_button {
+    margin: auto;
+    width: 300px !important;
+    height: 100px;
+    font-size: 25px !important;
+}
+
+.admin_member_list {
+    margin: auto;
+    width: 1700px;
+    margin-top: 50px;
+}
+
+.admin_member_list>table>tbody>tr>td {
+    line-height: 50px;
+    border-color: rgba(0, 0, 0, .2);
+}
+
+.modify_button {
+    width: 80px;
+    height: 25px;
+}
+
+.admin_page_logo {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+.contents_research {
+    width: 1920px;
+    height: 1250px;
+    margin: auto;
+    margin-bottom: 0px;
+
+}
+
+.qBox {
+    width: 1500px;
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Nexon_bold';
+    text-align: center;
+    margin: auto;
+    margin-top: 250px;
+}
+
+.answerBox {
+    width: 1500px;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.answerList {
+    background-color: white;
+    width: 1000px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    font-weight: bolder;
+
+}
+
+.answerList:hover {
+    transition: transform .2s;
+    transform: scale(1.15);
+    /* (150% zoom, 사이즈가 너무 클 경우 viewport 밖으로 나가게 됨 주의! */
+}
+
+@font-face {
+    font-family: 'Nexon_bold';
+    src: url(font/NEXON\ Lv1\ Gothic\ Low\ OTF\ Bold.otf);
+}
+
+@font-face {
+    font-family: 'Nexon_light';
+    src: url(font/NEXON\ Lv1\ Gothic\ Low\ OTF\ Light.otf);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+
+}
+
+#result {
+    display: none;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#shareResult {
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.resultname {
+    width: 1500px;
+    height: 100px;
+    font-size: 50px;
+    font-family: 'Nexon_bold';
+    text-align: center;
+    margin: auto;
+}
+
+.result_game {
+    margin-top: 30px;
+    font-family: 'Nexon_bold';
+    font-size: 40px;    
+    height: 40px !important;
+
+}
+
+.resultDesc {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.box {
+    position: relative;
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
+    margin-right: 15px;
+    
+
+}
+
+
+.box_img {  
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    object-fit: cover;
+}
+
+.box .info {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.35s ease-in-out;
+    text-align: center;
+}
+
+.box:hover .info {
+    opacity: 1;
+}
+
+.box:hover .box_img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.box .info h3 {
+	margin-top:50px;
+    color: white;
+    font-size: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.box .info p {
+    color: white;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.recommen_contents {
+    width: 1590px;
+    height: 500px;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.cbox {
+    width: 1900px;
+    height: 600px;
+    background-size: contain;
+}
+
+.cbox:hover .info {
+    opacity: 1;
+}
+
+.cbox .info {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.35s ease-in-out;
+    text-align: center;
+}
+
+.cbox .info h3 {
+    line-height: 300px;
+    color: white;
+    font-size: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.cbox .info p {
+    color: white;
+    font-size: 30px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+.non_type_box {
+	width: 1920px;
+	height: 600px;
+    line-height: 500px;
+    font-weight: bolder;
+    background-color: rgb(193, 243, 253);
+	font-size: 50px;
+}
+
+.game_list {
+    width: 1500px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    height: 228px;
+}
+
+.gbox {
+    position: relative;
+    width: 480px;
+    height: 228px;
+    overflow: hidden;
+    margin-right: 15px;
+    
+
+}
+
+
+.gbox_img {  
+    width: 100%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    object-fit: cover;
+}
+
+.gbox .info {
+    color: #fff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.35s ease-in-out;
+    text-align: center;
+}
+
+.gbox:hover .info {
+    opacity: 1;
+}
+
+.gbox:hover .box_img {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.gbox .info h3 {
+	margin-top:10px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.gbox .info p {
+    color: white;
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
